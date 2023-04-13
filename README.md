@@ -1,0 +1,8 @@
+# BladderH-E_MPsegmentation
+
+This repository contains all the scripts used for segmenting H&E stained bladder images into MP and non-MP regions.
+
+![image](https://user-images.githubusercontent.com/19530531/231614633-f91b2649-b34e-4efb-aae0-cc4fdf61de8e.png)
+
+
+Histological assessment of smooth muscle is a critical step particularly in staging malignant tumors in various internal organs such as the urinary bladder. Nonetheless, traditional manual segmentation and classification of muscular tissues by pathologists is often challenging. Therefore, a fully automated and reliable smooth muscle image segmentation system is in high demand. To characterize muscle fibers in the urinary bladder, including muscularis mucosa (MM) and muscularis propria (MP), we assessed 277 histological images from surgical specimens, using two well-known deep learning (DL) models groups, VGG16, ResNet18, SqueezeNet, and MobileNetV2, considered as patch-based approach and U-Net, MA-Net, DeepLabv3+, and FPN, considered as pixel-based approach. All the trained models in both the groups were evaluated at pixel-level for their performance. For segmenting MP and non-MP (including MM) regions, MobileNetV2, in patch-based approach and U-Net, in the pixel-based approach outperformed their peers in the groups with mean Jaccard Index equal to 0.74 and 0.79, and mean Dice co-efficient equal to 0.82 and 0.88 respectively. We also demonstrated the strengths and weaknesses of the models in terms of speed and prediction accuracy. This work not only creates a benchmark for future development of tools for the histological segmentation of smooth muscle but also provides an effective DL-based diagnostic system for accurate pathological staging of bladder cancer. 
